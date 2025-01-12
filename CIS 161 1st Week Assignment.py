@@ -43,8 +43,11 @@ print(f"The number of seconds in {month_name} is {num_sec_in_month}")
 
 
 #4
+#add input and turn to int
 eggs=input("Enter the number of eggs: ")
 num_eggs=int(eggs)
+#divide int and get left over
 dozen_eggs=num_eggs//12
 left_over_eggs=num_eggs%12
+#print result
 print(f"This makes {dozen_eggs} dozen eggs with {left_over_eggs} left over")
